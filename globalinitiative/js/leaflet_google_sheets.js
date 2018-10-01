@@ -23,7 +23,9 @@ var baseLayers = {
 		"Satellite": satellite,
 		"Arabic ": arabic 
 	};
- 
+// add layer groups to layer switcher control
+var controlLayers = L.control.layers(baseLayers).addTo(map);
+	
    var marker1 = {
     radius: 3,
     fillColor: "white",
