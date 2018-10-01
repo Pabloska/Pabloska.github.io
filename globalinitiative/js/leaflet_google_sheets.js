@@ -71,10 +71,10 @@ var baseLayers = {
 		
 		
 		var myStyle = {
-		 "color": "yellow",
+		 "color": "red",
 		 "dashArray": '',
-		 "weight": 1,
-		 "opacity": 0.2
+		 "weight": 0.5,
+		 "opacity": 0.1
 		};
 
 		
