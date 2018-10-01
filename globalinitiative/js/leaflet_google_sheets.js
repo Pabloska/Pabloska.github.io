@@ -35,7 +35,7 @@ var baseLayers = {
   
  var firefoxIcon = L.icon({
         iconUrl: 'https://globalinitiative.github.io/detention-centers/img/target_logo_1.png',
-        iconSize: [15, 15], // size of the icon
+        iconSize: [11, 11], // size of the icon
         });
   
   Tabletop.init({ 
