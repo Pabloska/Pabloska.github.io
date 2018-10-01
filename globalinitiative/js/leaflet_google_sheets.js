@@ -8,7 +8,22 @@ document.addEventListener('DOMContentLoaded',function(){
   L.tileLayer('http://{s}.tiles.wmflabs.org/bw-mapnik/{z}/{x}/{y}.png', {
       attribution: '&copy; Global Initiative | Pablo Gallego'
   }).addTo(map);
-  
+ var satellite  = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}.png', {
+      attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+  }),
+
+  arabic  = L.tileLayer('http://{s}.tiles.wmflabs.org/bw-mapnik/{z}/{x}/{y}.png', {
+      attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+  });
+
+
+
+// json object for layer switcher control basemaps
+var baseLayers = {
+		"Satellite": satellite,
+		"Arabic ": arabic 
+	};
+ 
    var marker1 = {
     radius: 3,
     fillColor: "white",
