@@ -5,7 +5,7 @@ var code = "1EXl0ZGn4RMBtim_c4zwA_te3VQgIquVywZlT_XKR0qo"
 
 document.addEventListener('DOMContentLoaded',function(){
   map = L.map('map').setView([22, 11], 4);
-  L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
+  L.tileLayer('http://{s}.tiles.wmflabs.org/bw-mapnik/{z}/{x}/{y}.png', {
       attribution: '&copy; Global Initiative | Pablo Gallego'
   }).addTo(map);
   
