@@ -33,11 +33,10 @@ var baseLayers = {
     fillOpacity: 0.8
   };
   
-  var firefoxIcon = L.icon({
-        iconUrl: 'https://mbtskoudsalg.com/images/blank-circle-png-3.gif',
-        iconSize: [7, 7], // size of the icon
+ var firefoxIcon = L.icon({
+        iconUrl: 'https://globalinitiative.github.io/detention-centers/img/target_logo_1.png',
+        iconSize: [15, 15], // size of the icon
         });
-  
   
   Tabletop.init({ 
     key: code,
