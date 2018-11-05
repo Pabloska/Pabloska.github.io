@@ -1,0 +1,49 @@
+{
+ "name": "IOM",
+ "children": [
+  {
+   "name": "DTM",
+   "children": [
+    {
+     "name": "Nuno Nunez",
+     "children": [
+      {"name": "Project 1", "size": 3534},
+      {"name": "Project 2", "size": 5731},
+      {"name": "Project 3", "size": 7840},
+      {"name": "Project 4", "size": 5914},
+      {"name": "Project 5", "size": 3416}
+     ]
+    },
+    {
+     "name": "Pablo Gallego",
+     "children": [
+      {"name": "Project 1", "size": 3534},
+      {"name": "Project 2", "size": 5731},
+      {"name": "Project 3", "size": 7840},
+      {"name": "Project 4", "size": 5914},
+      {"name": "Project 5", "size": 3416}
+     ]
+    },
+	{
+	 "name": "Robert Trigwell",
+     "children": [
+      {"name": "Project 1", "size": 3534},
+      {"name": "Project 2", "size": 5731},
+      {"name": "Project 3", "size": 7840},
+      {"name": "Project 4", "size": 5914},
+      {"name": "Project 5", "size": 3416}
+     ]
+    },
+    
+     {"name": "IOM", "size": 20534,
+     
+	 "children": [
+      {"name": "name1", "size": 7074},
+	  {"name": "name2", "size": 7074},
+	  {"name": "name3", "size": 7074}
+     ]
+    }
+   ]
+  }
+ ]
+}
